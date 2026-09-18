@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javohir | Cyber Security</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<button id="scrollToTopBtn" onclick="scrollToTop()">↑</button>
+<body>
+
+
+</div>
+
+    <header>
+        <h2>JAVOHIR</h2>
+
+        <nav class="navbar">
+    <div class="logo">JAVOHIR</div>
+
+    <button class="menu-toggle" id="menuToggle">☰</button>
+
+    <div class="nav-links" id="navLinks">
+        <a href="#home">Bosh sahifa</a>
+        <a href="#about">Men haqimda</a>
+        <a href="#skills">Ko‘nikmalar</a>
+        <a href="#cybersecurity">Cyber Security</a>
+        <a href="#contact">Bog‘lanish</a>
+    </div>
+</nav>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+            <img src="javohir.jpg" alt="Javohir" class="profile-img">
+            <p>Salom, men</p>
+
+            <h1>Javohir Odinayev 👋</h1>
+
+            <h2 id="typing"></h2>
+
+            <p>
+                Men IT, dasturlash va kiberxavfsizlik
+                sohalariga qiziqaman.
+            </p>
+
+            <button onclick="goToAbout()">Men haqimda</button>
+             
+            <div class="terminal">
+    <div class="terminal-header">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+        <span class="terminal-title">Javohir@cyber:~</span>
+    </div>
+
+    <div class="terminal-body">
+        <p><span class="green-text">Javohir@cyber</span>:~$ whoami</p>
+        <p>Javohir Odinayev</p>
+
+        <p><span class="green-text">Javohir@cyber</span>:~$ skills</p>
+        <p>HTML • CSS • JavaScript • Python • Cyber Security</p>
+
+        <p><span class="green-text">Javohir@cyber</span>:~$ status</p>
+        <p class="online">● SYSTEM ONLINE</p>
+
+        <p><span class="green-text">Javohir@cyber</span>:~$</p>
+        <span class="cursor">_</span>
+    </div>
+</div>
+
+
+    </section>
+
+
+    <section id="about">
+
+        <h2>Men haqimda</h2>
+
+        <p>
+            Men Javohir. IT, dasturlash va Cyber Security
+            sohalarini o‘rganmoqdaman. Kelajakda
+            xalqaro IT sohasida faoliyat yuritishni
+            maqsad qilganman.
+        </p>
+
+    </section>
+
+
+  <section id="skills">
+    <section id="skills" class="skills-section">
+    <h2>My Skills</h2>
+    <p class="skills-subtitle">Texnologiyalar va ko‘nikmalarim</p>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>HTML</span>
+            <span>90%</span>
+        </div>
+        <div class="progress">
+            <div class="progress-bar html"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>CSS</span>
+            <span>80%</span>
+        </div>
+        <div class="progress">
+            <div class="progress-bar css"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>JavaScript</span>
+            <span>65%</span>
+        </div>
+        <div class="progress">
+            <div class="progress-bar javascript"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>Python</span>
+            <span>60%</span>
+        </div>
+        <div class="progress">
+            <div class="progress-bar python"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>Cyber Security</span>
+            <span>55%</span>
+        </div>
+        <div class="progress">
+            <div class="progress-bar cyber"></div>
+        </div>
+    </div>
+</section>
+
+    <h2>Ko‘nikmalarim</h2>
+
+    <div class="skills">
+
+        <div onclick="showSkill('HTML')">
+            <h3>HTML</h3>
+            <p>Web sahifalar yaratish</p>
+        </div>
+
+        <div onclick="showSkill('CSS')">
+            <h3>CSS</h3>
+            <p>Web dizayn va animatsiyalar</p>
+        </div>
+
+        <div onclick="showSkill('Python')">
+            <h3>Python</h3>
+            <p>Dasturlash asoslari</p>
+        </div>
+
+        <div onclick="showSkill('Cyber Security')">
+            <h3>Cyber Security</h3>
+            <p>Kiberxavfsizlik asoslari</p>
+        </div>
+        <section id="cybersecurity" class="cyber-section">
+
+    <h2>🛡️ Cyber Security</h2>
+    <p class="cyber-subtitle">
+        Cyber Security sohasidagi yo‘nalishlarim
+    </p>
+
+    <div class="cyber-cards">
+
+        <div class="cyber-card">
+            <div class="cyber-icon">🔐</div>
+            <h3>Ethical Hacking</h3>
+            <p>
+                Tizim va web-ilovalardagi xavfsizlik zaifliklarini
+                o‘rganish va aniqlash.
+            </p>
+            <span>Learning</span>
+        </div>
+
+        <div class="cyber-card">
+            <div class="cyber-icon">🌐</div>
+            <h3>Network Security</h3>
+            <p>
+                Tarmoqlarni himoyalash, xavfsizlik protokollari
+                va network monitoring.
+            </p>
+            <span>Learning</span>
+        </div>
+
+        <div class="cyber-card">
+            <div class="cyber-icon">🐧</div>
+            <h3>Linux</h3>
+            <p>
+                Linux terminali, command line va tizim boshqaruvini
+                o‘rganish.
+            </p>
+            <span>Learning</span>
+        </div>
+
+        <div class="cyber-card">
+            <div class="cyber-icon">🌐</div>
+            <h3>Web Security</h3>
+            <p>
+                Web saytlar xavfsizligi, authentication va
+                common vulnerabilities.
+            </p>
+            <span>Learning</span>
+        </div>
+
+    </div>
+
+
+    <!-- ===== PROJECTS ===== -->
+
+<section id="projects" class="projects-section">
+
+    <h2>🚀 Loyihalarim</h2>
+
+    <p class="projects-subtitle">
+        O‘rganish davomida yaratgan loyihalarim
+    </p>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+            <div class="project-number">01</div>
+
+            <h3>🛡️ Cyber Security Portfolio</h3>
+
+            <p>
+                Cyber Security yo‘nalishidagi shaxsiy portfolio
+                saytim. HTML, CSS va JavaScript yordamida yaratildi.
+            </p>
+
+            <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+
+            <a href="#" class="project-btn">
+                Ko‘rish →
+            </a>
+        </div>
+
+
+        <div class="project-card">
+            <div class="project-number">02</div>
+
+            <h3>🐍 Python Projects</h3>
+
+            <p>
+                Python dasturlash tilini o‘rganish davomida
+                yaratgan kichik dasturlar va mashqlar to‘plami.
+            </p>
+
+            <div class="project-tech">
+                <span>Python</span>
+            </div>
+
+            <a href="#" class="project-btn">
+                Ko‘rish →
+            </a>
+        </div>
+
+
+        <div class="project-card">
+            <div class="project-number">03</div>
+
+            <h3>💻 School Website</h3>
+
+            <p>
+                Zamonaviy maktab uchun yaratilgan web-site
+                loyihasi.
+            </p>
+
+            <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+
+            <a href="#" class="project-btn">
+                Ko‘rish →
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+    <section id="contact" class="contact-section">
+
+    <h2>📩 Bog‘lanish</h2>
+    <p class="contact-subtitle">
+        Men bilan bog‘lanish uchun xabar qoldiring
+    </p>
+
+    <form class="contact-form" id="contactForm">
+
+        <div class="input-group">
+            <label for="name">Ismingiz</label>
+            <input 
+                type="text" 
+                id="name" 
+                placeholder="Ismingizni kiriting"
+                required
+            >
+        </div>
+
+        <div class="input-group">
+            <label for="email">Email</label>
+            <input 
+                type="email" 
+                id="email" 
+                placeholder="example@gmail.com"
+                required
+            >
+        </div>
+
+        <div class="input-group">
+            <label for="message">Xabar</label>
+            <textarea 
+                id="message" 
+                rows="6"
+                placeholder="Xabaringizni yozing..."
+                required
+            ></textarea>
+        </div>
+
+        <button type="submit" class="send-btn">
+            Yuborish 🚀
+        </button>
+
+        <p id="formMessage"></p>
+
+    </form>
+
+</section>
+
+</section>
+
+    </div>
+
+    <div id="skill-result"></div>
+
+ <section id="projects">
+
+    <h2>Loyihalarim</h2>
+
+    <div class="projects">
+
+        <div class="project-card"
+    onclick="showProject('Portfolio Website')">
+    <h3>Portfolio Website</h3>
+            <p>
+                HTML, CSS va JavaScript yordamida
+                yaratilgan shaxsiy portfolio sayti.
+            </p>
+        </div>
+
+       <div class="project-card"
+    onclick="showProject('Python Projects')">
+    <h3>Python Projects</h3>
+            <p>
+                Python yordamida yaratgan dasturlarim
+                va kichik loyihalarim.
+            </p>
+        </div>
+
+       <div class="project-card"
+    onclick="showProject('Cyber Security Projects')">
+    <h3>Cyber Security Projects</h3>
+            <p>
+                Kiberxavfsizlik bo‘yicha o‘rganayotgan
+                bilimlarim va amaliy loyihalarim.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+<!-- PROJECT MODAL -->
+
+<div id="project-modal" class="modal">
+
+    <div class="modal-content">
+
+        <span class="close-modal" onclick="closeProject()">&times;</span>
+
+        <h2 id="modal-title">Project</h2>
+
+        <p id="modal-description">
+            Project haqida ma'lumot
+        </p>
+
+        <div class="modal-buttons">
+
+            <button onclick="closeProject()">
+                Yopish
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+    <section id="contact">
+
+        <h2>Bog‘lanish</h2>
+
+        <div class="contact-buttons">
+
+            <a href="https://t.me/the_odinayeff" target="_blank">    
+                Telegram
+            </a>
+
+            <a href="https://instagram.com/the_odinayeff" target="_blank">
+                Instagram
+            </a>
+
+            <a href="mailto:javohirodinayeff2008@gmail.com">
+                Email
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+        <p>© 2026 Javohir | Cyber Security</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
